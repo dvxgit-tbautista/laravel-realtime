@@ -13,9 +13,10 @@
             cluster: 'ap1'
         });
 
+
         var channel = pusher.subscribe('my-channel');
         channel.bind('form-submitted', function(data) {
-            alert(JSON.stringify(data));
+            $("#message").append(data.text);
         });
     </script>
 </head>
@@ -26,6 +27,10 @@
         Try publishing an event to channel <code>my-channel</code>
         with event name <code>my-event</code>.
     </p>
+
+    <div id="message">
+
+    </div>
 </body>
 
 </html>
