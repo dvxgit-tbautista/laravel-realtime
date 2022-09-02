@@ -16,7 +16,7 @@
 
         var channel = pusher.subscribe('my-channel');
         channel.bind('form-submitted', function(data) {
-            $("#message").append(data.text);
+            $("#message").text(data.text);
         });
     </script>
 </head>
