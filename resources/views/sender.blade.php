@@ -1,4 +1,4 @@
-<form action="/sender" method="post">
+<form onsubmit="setTimeout(function(){window.location.reload();},10);" method="post">
     @csrf
 
     {{-- <input type="text" name="text"> --}}
