@@ -1,5 +1,5 @@
 # Laravel Realtime
-Laravel Realtime is a repository that demonstrates the basic functionality of Pusher in Laravel for real-time communication. It includes a simple chat application where users can join a chat room and send messages in real-time.
+Laravel Realtime is a repository that demonstrates the basic functionality of Pusher in Laravel for real-time communication.
 
 ## Features
 Real-time chat functionality using Pusher
